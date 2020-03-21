@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Review</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+  <div class="navbar">
+    <ul class="nav navbar-nav navbar-right ">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="lat.html.html">Max Temp</a></li>
+          <li><a href="humidity.html.html">Humidity</a></li>
+          <li><a href="cloudiness.html.html">Cloudiness</a></li>
+          <li><a href="wind.html.html">Wind Speed</a></li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>  
+<body>
+    <header class="header"> <h1>Welcome</h1>  </header>
+    <main>
+      <!-- This is column 1 of 3 -->     
+      <div class="row">
+        <div class="col-md-6">
+          <div class="box">
+            <h3>Latitude vs Humidity </h3>
+            <img src="/Resources/Max_Temp&Humidity.png">
+            <p>With our current analysis, it is difficult to find any obvious correlation between latittude and humidity. There is a clear band of many data points at 100% humidity,
+               and there do seem to be strong clusters of high humidity around the equator and in some other areas
+              (e.g. a strong band of 0% humidity at latitude > 60). Further analysis is required.</p>
+          </div>
+        </div>  
+                
+        <div class="col-md-6">
+          <h1>Visualizations</h1> 
+          <div class="row">          
+            <div class="col-md-3">     
+              <div class="box1">    
+                <a href="cloudiness.html"> <img src="/Resources/Max_Temp&Cloudiness.png" alt="">
+               </a>
+              </div>
+            </div>  
+            <div class="col-md-3"> 
+              <div class="box1">  
+                <a href="humidity.html"> <img src="/Resources/Max_Temp&Humidity.png" alt="">
+                </a>
+              </div>
+            </div>  
+          </div> 
+          <div class="row">          
+            <div class="col-md-3">     
+              <div class="box1">    
+                <a href="lat.html"> <img src="/Resources/Max_Temp&Lat.png" alt="">
+                </a>
+              </div>
+            </div>  
+            <div class="col-md-3"> 
+              <div class="box1">  
+                <a href="wind.html"> <img src="/Resources/Max_Temp&Wind Speed.png" alt="">
+                </a>
+              </div>
+            </div>  
+          </div> 
+        </div>           
+      </div>         
+    </main>
+  
+</body>
+
+</html>

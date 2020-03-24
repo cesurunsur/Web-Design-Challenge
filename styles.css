@@ -15,9 +15,10 @@ body{
     color:blue;
     font-size: xxx-large;
     background: #51dbfd
-}
+ }
 .navbar{
     float: right;   
+    text-align: center;
     cursor: pointer; 
     background: #5191fd;
     padding:3px;
@@ -26,6 +27,7 @@ body{
     font-size: large;
     top: 1%;
     text-decoration: none; 
+    position: absolute; 
   }
 
  #myList{
